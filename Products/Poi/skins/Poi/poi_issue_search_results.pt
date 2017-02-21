@@ -34,7 +34,7 @@
         <th i18n:translate="listingheader_title">Title</th>
         <th i18n:translate="listingheader_release"
             tal:condition="here/isUsingReleases">Target</th>
-        <th i18n:translate="listingheader_area">Area</th>
+        <th i18n:translate="listingheader_area">Action List</th>
         <th i18n:translate="listingheader_type">Type</th>
         <th i18n:translate="listingheader_severity">Severity</th>
         <th i18n:translate="listingheader_responsible">Responsible</th>
