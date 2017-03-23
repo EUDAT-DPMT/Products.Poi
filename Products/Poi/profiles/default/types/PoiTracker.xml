@@ -2,15 +2,15 @@
 <object name="PoiTracker"
    meta_type="Factory-based Type Information with dynamic views"
    xmlns:i18n="http://xml.zope.org/namespaces/i18n">
- <property name="title">Issue Tracker</property>
- <property name="description">The default tracker
+ <property name="title">Action Tracker</property>
+ <property name="description">An Action Tracker supporting project enabling
       </property>
  <property name="content_icon">PoiTracker.gif</property>
  <property name="content_meta_type">PoiTracker</property>
  <property name="product">Poi</property>
  <property name="factory">addPoiTracker</property>
  <property name="immediate_view">base_view</property>
- <property name="global_allow">True</property>
+ <property name="global_allow">False</property>
  <property name="filter_content_types">True</property>
  <property name="allowed_content_types">
   <element value="PoiIssue"/>
